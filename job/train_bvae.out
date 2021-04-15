@@ -1,0 +1,53 @@
+CUDA_VISIBLE_DEVICES 0
+gpu019.ihep.ac.cn
+Filesystem                Size  Used Avail Use% Mounted on
+devtmpfs                  189G     0  189G   0% /dev
+tmpfs                     189G  2.0G  187G   2% /dev/shm
+tmpfs                     189G  4.1G  185G   3% /run
+tmpfs                     189G     0  189G   0% /sys/fs/cgroup
+/dev/sda2                  88G   27G   62G  31% /
+/dev/sda1                1014M  176M  839M  18% /boot
+/dev/sda6                 775G   42G  734G   6% /tmp
+/dev/sda3                  30G   33M   30G   1% /var/cache/afs
+/dev/sda5                 200M  8.0K  200M   1% /boot/efi
+AFS                       2.0T     0  2.0T   0% /afs
+192.168.50.33@tcp:/hpcfs  1.8P  841T  879T  49% /hpcfs
+cvmfs2                     40G   40G  359M 100% /cvmfs/cvmfs-config.cern.ch
+cvmfs2                     40G   40G  359M 100% /cvmfs/common.ihep.ac.cn
+cvmfs2                     40G   40G  359M 100% /cvmfs/bes3.ihep.ac.cn
+cvmfs2                     40G   40G  359M 100% /cvmfs/juno.ihep.ac.cn
+cvmfs2                     40G   40G  359M 100% /cvmfs/atlas.cern.ch
+cvmfs2                     40G   40G  359M 100% /cvmfs/cms.cern.ch
+cvmfs2                     40G   40G  359M 100% /cvmfs/cepc.ihep.ac.cn
+cvmfs2                     40G   40G  359M 100% /cvmfs/lhaaso.ihep.ac.cn
+cvmfs2                     40G   40G  359M 100% /cvmfs/sft.cern.ch
+eoshxmt                   734T  452T  282T  62% /mnt/hxmt
+cvmfs2                     40G   40G  359M 100% /cvmfs/lqcd.ihep.ac.cn
+cvmfs2                     40G   40G  359M 100% /cvmfs/mlgpu.ihep.ac.cn
+cvmfs2                     40G   40G  359M 100% /cvmfs/container.ihep.ac.cn
+cvmfs2                     40G   40G  359M 100% /cvmfs/sft-nightlies.cern.ch
+/hpcfs/bes/mlgpu/liaoyp/miniconda3/bin/python
+2021-04-15 09:35:44,022 - None.main[INFO]: constructing graph
+2021-04-15 09:35:44,209 - None.main[INFO]: cuda:0
+2021-04-15 09:35:44,209 - None.main[INFO]: Start loading data:
+2021-04-15 09:35:44,209 - None.main[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/datasets/xzt_3D_92_10000.root
+2021-04-15 10:00:31,679 - None.main[INFO]: Load data successfully! Start training...
+2021-04-15 10:00:53,274 - None.main[INFO]: 1 epoch completed! This code is running successfully!
+2021-04-15 10:31:08,854 - None.main[INFO]: Epoch    100. Loss 177.324.
+2021-04-15 10:31:08,970 - None.main[INFO]: Model save into:
+2021-04-15 10:31:08,971 - None.main[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model11.pt
+2021-04-15 11:01:41,062 - None.main[INFO]: Epoch    200. Loss 225.861.
+2021-04-15 11:01:41,192 - None.main[INFO]: Model save into:
+2021-04-15 11:01:41,192 - None.main[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model11.pt
+2021-04-15 11:32:13,262 - None.main[INFO]: Epoch    300. Loss 273.160.
+2021-04-15 11:32:13,344 - None.main[INFO]: Model save into:
+2021-04-15 11:32:13,344 - None.main[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model11.pt
+2021-04-15 12:02:46,545 - None.main[INFO]: Epoch    400. Loss 321.280.
+2021-04-15 12:02:46,618 - None.main[INFO]: Model save into:
+2021-04-15 12:02:46,618 - None.main[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model11.pt
+2021-04-15 12:33:19,299 - None.main[INFO]: Epoch    500. Loss 369.309.
+2021-04-15 12:33:19,521 - None.main[INFO]: Model save into:
+2021-04-15 12:33:19,522 - None.main[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model11.pt
+2021-04-15 13:03:52,590 - None.main[INFO]: Epoch    600. Loss 416.820.
+2021-04-15 13:03:52,675 - None.main[INFO]: Model save into:
+2021-04-15 13:03:52,675 - None.main[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model11.pt
