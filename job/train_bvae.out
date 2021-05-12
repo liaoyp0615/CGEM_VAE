@@ -1,53 +1,101 @@
 CUDA_VISIBLE_DEVICES 0
-gpu019.ihep.ac.cn
+gpu025.ihep.ac.cn
 Filesystem                Size  Used Avail Use% Mounted on
 devtmpfs                  189G     0  189G   0% /dev
-tmpfs                     189G  2.0G  187G   2% /dev/shm
+tmpfs                     189G  309M  189G   1% /dev/shm
 tmpfs                     189G  4.1G  185G   3% /run
 tmpfs                     189G     0  189G   0% /sys/fs/cgroup
-/dev/sda2                  88G   27G   62G  31% /
-/dev/sda1                1014M  176M  839M  18% /boot
-/dev/sda6                 775G   42G  734G   6% /tmp
-/dev/sda3                  30G   33M   30G   1% /var/cache/afs
-/dev/sda5                 200M  8.0K  200M   1% /boot/efi
+/dev/nvme0n1p3             88G   27G   62G  31% /
+/dev/nvme0n1p4             30G   87M   30G   1% /usr/vice/cache
+/dev/nvme0n1p5            776G   34G  742G   5% /tmp
+/dev/nvme0n1p2           1014M  169M  846M  17% /boot
+/dev/nvme0n1p1            200M   12M  189M   6% /boot/efi
 AFS                       2.0T     0  2.0T   0% /afs
-192.168.50.33@tcp:/hpcfs  1.8P  841T  879T  49% /hpcfs
-cvmfs2                     40G   40G  359M 100% /cvmfs/cvmfs-config.cern.ch
-cvmfs2                     40G   40G  359M 100% /cvmfs/common.ihep.ac.cn
-cvmfs2                     40G   40G  359M 100% /cvmfs/bes3.ihep.ac.cn
-cvmfs2                     40G   40G  359M 100% /cvmfs/juno.ihep.ac.cn
-cvmfs2                     40G   40G  359M 100% /cvmfs/atlas.cern.ch
-cvmfs2                     40G   40G  359M 100% /cvmfs/cms.cern.ch
-cvmfs2                     40G   40G  359M 100% /cvmfs/cepc.ihep.ac.cn
-cvmfs2                     40G   40G  359M 100% /cvmfs/lhaaso.ihep.ac.cn
-cvmfs2                     40G   40G  359M 100% /cvmfs/sft.cern.ch
-eoshxmt                   734T  452T  282T  62% /mnt/hxmt
-cvmfs2                     40G   40G  359M 100% /cvmfs/lqcd.ihep.ac.cn
-cvmfs2                     40G   40G  359M 100% /cvmfs/mlgpu.ihep.ac.cn
-cvmfs2                     40G   40G  359M 100% /cvmfs/container.ihep.ac.cn
-cvmfs2                     40G   40G  359M 100% /cvmfs/sft-nightlies.cern.ch
+192.168.50.33@tcp:/hpcfs  1.8P  872T  847T  51% /hpcfs
+cvmfs2                     40G   32G  8.4G  80% /cvmfs/cvmfs-config.cern.ch
+cvmfs2                     40G   32G  8.4G  80% /cvmfs/common.ihep.ac.cn
+cvmfs2                     40G   32G  8.4G  80% /cvmfs/bes3.ihep.ac.cn
+cvmfs2                     40G   32G  8.4G  80% /cvmfs/juno.ihep.ac.cn
+cvmfs2                     40G   32G  8.4G  80% /cvmfs/atlas.cern.ch
+cvmfs2                     40G   32G  8.4G  80% /cvmfs/cms.cern.ch
+cvmfs2                     40G   32G  8.4G  80% /cvmfs/cepc.ihep.ac.cn
+cvmfs2                     40G   32G  8.4G  80% /cvmfs/lhaaso.ihep.ac.cn
+cvmfs2                     40G   32G  8.4G  80% /cvmfs/sft.cern.ch
+eospublic                 2.2P  1.8P  390T  83% /eos/public
+eoshxmt                   734T  480T  255T  66% /mnt/hxmt
+cvmfs2                     40G   32G  8.4G  80% /cvmfs/lqcd.ihep.ac.cn
+cvmfs2                     40G   32G  8.4G  80% /cvmfs/container.ihep.ac.cn
+cvmfs2                     40G   32G  8.4G  80% /cvmfs/sft-nightlies.cern.ch
+cvmfs2                     40G   32G  8.4G  80% /cvmfs/mlgpu.ihep.ac.cn
 /hpcfs/bes/mlgpu/liaoyp/miniconda3/bin/python
-2021-04-15 09:35:44,022 - None.main[INFO]: constructing graph
-2021-04-15 09:35:44,209 - None.main[INFO]: cuda:0
-2021-04-15 09:35:44,209 - None.main[INFO]: Start loading data:
-2021-04-15 09:35:44,209 - None.main[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/datasets/xzt_3D_92_10000.root
-2021-04-15 10:00:31,679 - None.main[INFO]: Load data successfully! Start training...
-2021-04-15 10:00:53,274 - None.main[INFO]: 1 epoch completed! This code is running successfully!
-2021-04-15 10:31:08,854 - None.main[INFO]: Epoch    100. Loss 177.324.
-2021-04-15 10:31:08,970 - None.main[INFO]: Model save into:
-2021-04-15 10:31:08,971 - None.main[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model11.pt
-2021-04-15 11:01:41,062 - None.main[INFO]: Epoch    200. Loss 225.861.
-2021-04-15 11:01:41,192 - None.main[INFO]: Model save into:
-2021-04-15 11:01:41,192 - None.main[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model11.pt
-2021-04-15 11:32:13,262 - None.main[INFO]: Epoch    300. Loss 273.160.
-2021-04-15 11:32:13,344 - None.main[INFO]: Model save into:
-2021-04-15 11:32:13,344 - None.main[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model11.pt
-2021-04-15 12:02:46,545 - None.main[INFO]: Epoch    400. Loss 321.280.
-2021-04-15 12:02:46,618 - None.main[INFO]: Model save into:
-2021-04-15 12:02:46,618 - None.main[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model11.pt
-2021-04-15 12:33:19,299 - None.main[INFO]: Epoch    500. Loss 369.309.
-2021-04-15 12:33:19,521 - None.main[INFO]: Model save into:
-2021-04-15 12:33:19,522 - None.main[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model11.pt
-2021-04-15 13:03:52,590 - None.main[INFO]: Epoch    600. Loss 416.820.
-2021-04-15 13:03:52,675 - None.main[INFO]: Model save into:
-2021-04-15 13:03:52,675 - None.main[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model11.pt
+2021-05-08 23:05:14,425 - None.main_bvae[INFO]: constructing graph
+2021-05-08 23:05:14,627 - None.main_bvae[INFO]: cuda:0
+2021-05-08 23:05:14,628 - None.main_bvae[INFO]: Start loading data:
+2021-05-08 23:05:14,628 - None.main_bvae[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/datasets/xzt_3D_92_10000.root
+2021-05-08 23:34:09,943 - None.main_bvae[INFO]: Load data successfully! Start training...
+2021-05-08 23:35:40,662 - None.main_bvae[INFO]: 1 epoch completed! This code is running successfully!
+2021-05-09 00:04:55,979 - None.main_bvae[INFO]: Epoch     20. Loss 102.328. Loss_bVAE 93.033. Loss_BCE 46.475.
+2021-05-09 00:34:13,734 - None.main_bvae[INFO]: Epoch     40. Loss 99.700. Loss_bVAE 91.536. Loss_BCE 40.817.
+2021-05-09 01:03:32,551 - None.main_bvae[INFO]: Epoch     60. Loss 98.501. Loss_bVAE 90.380. Loss_BCE 40.607.
+2021-05-09 01:32:56,065 - None.main_bvae[INFO]: Epoch     80. Loss 97.327. Loss_bVAE 88.909. Loss_BCE 42.091.
+2021-05-09 02:03:29,606 - None.main_bvae[INFO]: Epoch    100. Loss 95.533. Loss_bVAE 86.862. Loss_BCE 43.356.
+2021-05-09 02:03:29,830 - None.main_bvae[INFO]: Model save into:
+2021-05-09 02:03:29,830 - None.main_bvae[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model_bvae.pt
+2021-05-09 02:03:29,830 - None.main_bvae[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/D3_bvae.pt
+2021-05-09 02:32:47,486 - None.main_bvae[INFO]: Epoch    120. Loss 93.316. Loss_bVAE 84.709. Loss_BCE 43.036.
+2021-05-09 03:05:02,736 - None.main_bvae[INFO]: Epoch    140. Loss 92.885. Loss_bVAE 84.064. Loss_BCE 44.103.
+2021-05-09 03:39:22,402 - None.main_bvae[INFO]: Epoch    160. Loss 93.443. Loss_bVAE 84.236. Loss_BCE 46.038.
+2021-05-09 04:08:41,947 - None.main_bvae[INFO]: Epoch    180. Loss 94.158. Loss_bVAE 84.636. Loss_BCE 47.606.
+2021-05-09 04:38:41,036 - None.main_bvae[INFO]: Epoch    200. Loss 96.862. Loss_bVAE 86.368. Loss_BCE 52.469.
+2021-05-09 04:38:41,361 - None.main_bvae[INFO]: Model save into:
+2021-05-09 04:38:41,361 - None.main_bvae[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model_bvae.pt
+2021-05-09 04:38:41,361 - None.main_bvae[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/D3_bvae.pt
+2021-05-09 05:08:57,681 - None.main_bvae[INFO]: Epoch    220. Loss 96.345. Loss_bVAE 85.974. Loss_BCE 51.853.
+2021-05-09 05:38:33,095 - None.main_bvae[INFO]: Epoch    240. Loss 96.476. Loss_bVAE 86.038. Loss_BCE 52.189.
+2021-05-09 06:09:49,263 - None.main_bvae[INFO]: Epoch    260. Loss 98.439. Loss_bVAE 87.281. Loss_BCE 55.789.
+2021-05-09 06:39:08,155 - None.main_bvae[INFO]: Epoch    280. Loss 98.407. Loss_bVAE 87.335. Loss_BCE 55.358.
+2021-05-09 07:08:44,098 - None.main_bvae[INFO]: Epoch    300. Loss 101.313. Loss_bVAE 89.215. Loss_BCE 60.489.
+2021-05-09 07:08:44,333 - None.main_bvae[INFO]: Model save into:
+2021-05-09 07:08:44,333 - None.main_bvae[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model_bvae.pt
+2021-05-09 07:08:44,333 - None.main_bvae[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/D3_bvae.pt
+2021-05-09 07:39:15,556 - None.main_bvae[INFO]: Epoch    320. Loss 101.955. Loss_bVAE 89.725. Loss_BCE 61.149.
+2021-05-09 08:09:32,492 - None.main_bvae[INFO]: Epoch    340. Loss 104.613. Loss_bVAE 91.484. Loss_BCE 65.643.
+2021-05-09 08:39:11,062 - None.main_bvae[INFO]: Epoch    360. Loss 107.153. Loss_bVAE 93.134. Loss_BCE 70.094.
+2021-05-09 09:08:54,909 - None.main_bvae[INFO]: Epoch    380. Loss 107.839. Loss_bVAE 93.666. Loss_BCE 70.863.
+2021-05-09 09:38:41,735 - None.main_bvae[INFO]: Epoch    400. Loss 109.779. Loss_bVAE 94.931. Loss_BCE 74.241.
+2021-05-09 09:38:42,027 - None.main_bvae[INFO]: Model save into:
+2021-05-09 09:38:42,028 - None.main_bvae[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model_bvae.pt
+2021-05-09 09:38:42,028 - None.main_bvae[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/D3_bvae.pt
+2021-05-09 10:08:28,146 - None.main_bvae[INFO]: Epoch    420. Loss 110.887. Loss_bVAE 95.722. Loss_BCE 75.822.
+2021-05-09 10:37:45,882 - None.main_bvae[INFO]: Epoch    440. Loss 114.433. Loss_bVAE 98.054. Loss_BCE 81.894.
+2021-05-09 11:07:54,545 - None.main_bvae[INFO]: Epoch    460. Loss 117.056. Loss_bVAE 99.863. Loss_BCE 85.962.
+2021-05-09 11:38:21,943 - None.main_bvae[INFO]: Epoch    480. Loss 115.244. Loss_bVAE 98.930. Loss_BCE 81.570.
+2021-05-09 12:09:04,791 - None.main_bvae[INFO]: Epoch    500. Loss 122.719. Loss_bVAE 103.705. Loss_BCE 95.069.
+2021-05-09 12:09:05,382 - None.main_bvae[INFO]: Model save into:
+2021-05-09 12:09:05,382 - None.main_bvae[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model_bvae.pt
+2021-05-09 12:09:05,382 - None.main_bvae[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/D3_bvae.pt
+2021-05-09 12:39:56,065 - None.main_bvae[INFO]: Epoch    520. Loss 123.954. Loss_bVAE 104.553. Loss_BCE 97.009.
+2021-05-09 13:11:29,195 - None.main_bvae[INFO]: Epoch    540. Loss 127.000. Loss_bVAE 106.673. Loss_BCE 101.632.
+2021-05-09 13:43:03,595 - None.main_bvae[INFO]: Epoch    560. Loss 120.310. Loss_bVAE 102.770. Loss_BCE 87.700.
+2021-05-09 14:12:34,991 - None.main_bvae[INFO]: Epoch    580. Loss 130.652. Loss_bVAE 109.187. Loss_BCE 107.325.
+2021-05-09 14:42:04,286 - None.main_bvae[INFO]: Epoch    600. Loss 123.659. Loss_bVAE 105.562. Loss_BCE 90.483.
+2021-05-09 14:42:05,348 - None.main_bvae[INFO]: Model save into:
+2021-05-09 14:42:05,348 - None.main_bvae[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model_bvae.pt
+2021-05-09 14:42:05,348 - None.main_bvae[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/D3_bvae.pt
+2021-05-09 15:11:57,123 - None.main_bvae[INFO]: Epoch    620. Loss 130.451. Loss_bVAE 109.348. Loss_BCE 105.511.
+2021-05-09 15:42:08,171 - None.main_bvae[INFO]: Epoch    640. Loss 138.506. Loss_bVAE 114.824. Loss_BCE 118.407.
+2021-05-09 16:11:30,966 - None.main_bvae[INFO]: Epoch    660. Loss 129.982. Loss_bVAE 109.771. Loss_BCE 101.055.
+2021-05-09 16:41:43,356 - None.main_bvae[INFO]: Epoch    680. Loss 137.962. Loss_bVAE 114.366. Loss_BCE 117.978.
+2021-05-09 17:14:48,754 - None.main_bvae[INFO]: Epoch    700. Loss 137.938. Loss_bVAE 114.609. Loss_BCE 116.643.
+2021-05-09 17:14:49,837 - None.main_bvae[INFO]: Model save into:
+2021-05-09 17:14:49,837 - None.main_bvae[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model_bvae.pt
+2021-05-09 17:14:49,837 - None.main_bvae[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/D3_bvae.pt
+2021-05-09 17:44:20,688 - None.main_bvae[INFO]: Epoch    720. Loss 136.704. Loss_bVAE 114.313. Loss_BCE 111.957.
+2021-05-09 18:14:53,299 - None.main_bvae[INFO]: Epoch    740. Loss 138.753. Loss_bVAE 115.692. Loss_BCE 115.304.
+2021-05-09 18:46:10,378 - None.main_bvae[INFO]: Epoch    760. Loss 144.949. Loss_bVAE 119.544. Loss_BCE 127.024.
+2021-05-09 19:15:29,210 - None.main_bvae[INFO]: Epoch    780. Loss 151.444. Loss_bVAE 123.998. Loss_BCE 137.234.
+2021-05-09 19:45:21,926 - None.main_bvae[INFO]: Epoch    800. Loss 148.240. Loss_bVAE 121.972. Loss_BCE 131.339.
+2021-05-09 19:45:23,170 - None.main_bvae[INFO]: Model save into:
+2021-05-09 19:45:23,170 - None.main_bvae[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model_bvae.pt
+2021-05-09 19:45:23,170 - None.main_bvae[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/D3_bvae.pt
+2021-05-09 19:45:23,170 - None.main_bvae[INFO]: Train Done!

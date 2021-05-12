@@ -1,0 +1,38 @@
+CUDA_VISIBLE_DEVICES 0
+gpu031.ihep.ac.cn
+Filesystem                Size  Used Avail Use% Mounted on
+devtmpfs                  189G     0  189G   0% /dev
+tmpfs                     189G  502M  189G   1% /dev/shm
+tmpfs                     189G  4.1G  185G   3% /run
+tmpfs                     189G     0  189G   0% /sys/fs/cgroup
+/dev/nvme0n1p3             88G   30G   59G  34% /
+/dev/nvme0n1p4             30G   85M   30G   1% /usr/vice/cache
+/dev/nvme0n1p5            776G   38G  739G   5% /tmp
+/dev/nvme0n1p2           1014M  169M  846M  17% /boot
+/dev/nvme0n1p1            200M   12M  189M   6% /boot/efi
+AFS                       2.0T     0  2.0T   0% /afs
+192.168.50.33@tcp:/hpcfs  1.8P  875T  845T  51% /hpcfs
+cvmfs2                     40G   36G  4.2G  90% /cvmfs/cvmfs-config.cern.ch
+cvmfs2                     40G   36G  4.2G  90% /cvmfs/bes3.ihep.ac.cn
+cvmfs2                     40G   36G  4.2G  90% /cvmfs/juno.ihep.ac.cn
+cvmfs2                     40G   36G  4.2G  90% /cvmfs/atlas.cern.ch
+cvmfs2                     40G   36G  4.2G  90% /cvmfs/cms.cern.ch
+cvmfs2                     40G   36G  4.2G  90% /cvmfs/common.ihep.ac.cn
+cvmfs2                     40G   36G  4.2G  90% /cvmfs/cepc.ihep.ac.cn
+cvmfs2                     40G   36G  4.2G  90% /cvmfs/lhaaso.ihep.ac.cn
+cvmfs2                     40G   36G  4.2G  90% /cvmfs/sft.cern.ch
+eospublic                 2.2P  1.8P  389T  83% /eos/public
+eoshxmt                   734T  491T  243T  67% /mnt/hxmt
+cvmfs2                     40G   36G  4.2G  90% /cvmfs/lqcd.ihep.ac.cn
+cvmfs2                     40G   36G  4.2G  90% /cvmfs/container.ihep.ac.cn
+cvmfs2                     40G   36G  4.2G  90% /cvmfs/mlgpu.ihep.ac.cn
+cvmfs2                     40G   36G  4.2G  90% /cvmfs/sft-nightlies.cern.ch
+/hpcfs/bes/mlgpu/liaoyp/miniconda3/bin/python
+2021-05-12 21:08:39,472 - None.main_test[INFO]: constructing graph
+2021-05-12 21:08:39,754 - None.main_test[INFO]: cuda:0
+2021-05-12 21:08:50,552 - None.main_test[INFO]: Start loading data:
+2021-05-12 21:08:50,553 - None.main_test[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/datasets/xzt_3D_92_10000.root
+2021-05-12 21:44:18,701 - None.main_test[INFO]: Load data successfully! Start training...
+2021-05-12 21:44:18,812 - None.main_test[INFO]: memory usage 48.53(GB); total memory 377.4(GB); percent 23.4; cpu count 36.
+2021-05-12 21:44:19,159 - None.main_test[INFO]: memory_allocated:29.40 Mb, max_memory_allocated:29.40 Mb, memory_cached:44.00 Mb, max_memory_cached:44.00 Mb.
+2021-05-12 21:45:11,275 - None.main_test[INFO]: 1 epoch completed! This code is running successfully!

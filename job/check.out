@@ -1,36 +1,37 @@
 CUDA_VISIBLE_DEVICES 0
-gpu023.ihep.ac.cn
+gpu017.ihep.ac.cn
 Filesystem                Size  Used Avail Use% Mounted on
 devtmpfs                  189G     0  189G   0% /dev
-tmpfs                     189G  303M  189G   1% /dev/shm
-tmpfs                     189G  4.1G  185G   3% /run
+tmpfs                     189G  1.8G  187G   1% /dev/shm
+tmpfs                     189G  4.0G  185G   3% /run
 tmpfs                     189G     0  189G   0% /sys/fs/cgroup
-/dev/nvme0n1p3             88G   27G   62G  31% /
-/dev/nvme0n1p4             30G   65M   30G   1% /usr/vice/cache
-/dev/nvme0n1p5            776G   24G  752G   4% /tmp
-/dev/nvme0n1p2           1014M  169M  846M  17% /boot
-/dev/nvme0n1p1            200M   12M  189M   6% /boot/efi
+/dev/sda2                  88G   27G   62G  31% /
+/dev/sda3                  30G   33M   30G   1% /var/cache/afs
+/dev/sda6                 775G   28G  748G   4% /tmp
+/dev/sda1                1014M  176M  839M  18% /boot
+/dev/sda5                 200M  8.0K  200M   1% /boot/efi
 AFS                       2.0T     0  2.0T   0% /afs
-192.168.50.33@tcp:/hpcfs  1.8P  841T  879T  49% /hpcfs
-cvmfs2                     40G   22G   19G  55% /cvmfs/cvmfs-config.cern.ch
-cvmfs2                     40G   22G   19G  55% /cvmfs/common.ihep.ac.cn
-cvmfs2                     40G   22G   19G  55% /cvmfs/bes3.ihep.ac.cn
-cvmfs2                     40G   22G   19G  55% /cvmfs/juno.ihep.ac.cn
-cvmfs2                     40G   22G   19G  55% /cvmfs/atlas.cern.ch
-cvmfs2                     40G   22G   19G  55% /cvmfs/cms.cern.ch
-cvmfs2                     40G   22G   19G  55% /cvmfs/cepc.ihep.ac.cn
-cvmfs2                     40G   22G   19G  55% /cvmfs/lhaaso.ihep.ac.cn
-cvmfs2                     40G   22G   19G  55% /cvmfs/sft.cern.ch
-eoshxmt                   734T  452T  282T  62% /mnt/hxmt
-cvmfs2                     40G   22G   19G  55% /cvmfs/container.ihep.ac.cn
-cvmfs2                     40G   22G   19G  55% /cvmfs/lqcd.ihep.ac.cn
-cvmfs2                     40G   22G   19G  55% /cvmfs/mlgpu.ihep.ac.cn
-cvmfs2                     40G   22G   19G  55% /cvmfs/sft-nightlies.cern.ch
+192.168.50.33@tcp:/hpcfs  1.8P  874T  846T  51% /hpcfs
+cvmfs2                     40G   27G   14G  66% /cvmfs/cvmfs-config.cern.ch
+cvmfs2                     40G   27G   14G  66% /cvmfs/common.ihep.ac.cn
+cvmfs2                     40G   27G   14G  66% /cvmfs/bes3.ihep.ac.cn
+cvmfs2                     40G   27G   14G  66% /cvmfs/juno.ihep.ac.cn
+cvmfs2                     40G   27G   14G  66% /cvmfs/atlas.cern.ch
+cvmfs2                     40G   27G   14G  66% /cvmfs/cms.cern.ch
+cvmfs2                     40G   27G   14G  66% /cvmfs/cepc.ihep.ac.cn
+cvmfs2                     40G   27G   14G  66% /cvmfs/lhaaso.ihep.ac.cn
+cvmfs2                     40G   27G   14G  66% /cvmfs/sft.cern.ch
+eospublic                 2.2P  1.8P  383T  83% /eos/public
+eoshxmt                   734T  480T  254T  66% /mnt/hxmt
+cvmfs2                     40G   27G   14G  66% /cvmfs/lqcd.ihep.ac.cn
+cvmfs2                     40G   27G   14G  66% /cvmfs/mlgpu.ihep.ac.cn
+cvmfs2                     40G   27G   14G  66% /cvmfs/container.ihep.ac.cn
+cvmfs2                     40G   27G   14G  66% /cvmfs/sft-nightlies.cern.ch
 /hpcfs/bes/mlgpu/liaoyp/miniconda3/bin/python
-2021-04-15 09:06:38,527 - None.Check[INFO]: cuda
-2021-04-15 09:06:48,143 - None.Check[INFO]: Start checking...  VAE model load state:
-2021-04-15 09:06:48,143 - None.Check[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model3.pt
-2021-04-15 10:05:26,077 - None.Check[INFO]: Fake data checked!
-2021-04-15 10:17:57,612 - None.Check[INFO]: Real data checked!
-2021-04-15 10:18:01,182 - None.Check[INFO]: Save figures, done!
-2021-04-15 10:18:01,184 - None.Check[INFO]: Done!
+2021-05-09 17:41:05,238 - None.Check[INFO]: cuda
+2021-05-09 17:41:10,886 - None.Check[INFO]: Start checking...  VAE model load state:
+2021-05-09 17:41:10,887 - None.Check[INFO]: /hpcfs/bes/mlgpu/liaoyp/jupyter/CGEM/2021code/VAE/Model/pt_path/model3.pt
+2021-05-09 18:51:13,283 - None.Check[INFO]: Fake data checked!
+2021-05-09 19:05:48,241 - None.Check[INFO]: Real data checked!
+2021-05-09 19:05:52,421 - None.Check[INFO]: Save figures, done!
+2021-05-09 19:05:52,421 - None.Check[INFO]: Done!
